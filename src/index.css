@@ -1,0 +1,44 @@
+body{
+    margin:0;
+    background-color: #2E3138;
+    color:#fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header{
+    font-family: 'Cabin', sans-serif;
+    font-size: larger;
+    background-color: #1A181B;
+    color: #fff; 
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 19px;
+    align-items: center;
+    top: 0;
+    z-index: 1;
+
+}
+
+.logo{
+    display:flex;
+    gap:8px;
+    color: #61dcfbf6;
+}
+.logo h2{
+    font-weight: 700;
+}
+header h3{
+    font-size: large;
+    font-weight: 400;
+}
+.main{
+    margin:18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: large;
+}
+
+.main h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
