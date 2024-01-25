@@ -9,7 +9,7 @@ export const Navbar = () => {
                 <h2>React Facts</h2>
             </div>
             <div>
-               <h3>React Introduction</h3>
+               <h3>React -Project 1</h3>
             </div>
             
         </header>

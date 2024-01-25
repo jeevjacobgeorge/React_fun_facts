@@ -1,8 +1,14 @@
+html {
+    height: 100%;
+}
 body{
     margin:0;
     background-color: #2E3138;
     color:#fff;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url(./assets/react-icon-large.png);
+    background-repeat: no-repeat;
+    background-position: right 40%;
 }
 
 header{
@@ -32,10 +38,11 @@ header h3{
     font-weight: 400;
 }
 .main{
-    margin:18px;
+    margin:18px 0 0 19px;
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
     font-size: large;
+    max-width: 490px;
 }
 
 .main h2{
@@ -45,4 +52,10 @@ header h3{
 
 .main li::marker{
     color: #61dcfbf6;
+    font-size: 1.2rem;
+}
+
+.main > ul >  li{
+    line-height: 19px;
+    padding-block: 10px;
 }

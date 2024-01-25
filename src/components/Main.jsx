@@ -1,7 +1,8 @@
 import React from 'react'
-
+import logo from '../assets/react-icon-large.png'
 const Main = () => {
   return (
+    <>
     <div className="main">
         <h2>Fun facts about React</h2>
         <ul>
@@ -12,6 +13,8 @@ const Main = () => {
             <li>Powers thousands of enterprise apps, including mobile apps</li>
         </ul>
     </div>
+    </>
+
   )
 }
 
